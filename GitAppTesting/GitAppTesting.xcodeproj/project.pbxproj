@@ -16,6 +16,7 @@
 		D7C1628A2848BFB400AD08CD /* GitAppTestingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7C162892848BFB400AD08CD /* GitAppTestingTests.swift */; };
 		D7C162942848BFB400AD08CD /* GitAppTestingUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7C162932848BFB400AD08CD /* GitAppTestingUITests.swift */; };
 		D7C162962848BFB400AD08CD /* GitAppTestingUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7C162952848BFB400AD08CD /* GitAppTestingUITestsLaunchTests.swift */; };
+		D7C162A32848E33E00AD08CD /* Login.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7C162A22848E33E00AD08CD /* Login.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		D7C1628F2848BFB400AD08CD /* GitAppTestingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GitAppTestingUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D7C162932848BFB400AD08CD /* GitAppTestingUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GitAppTestingUITests.swift; sourceTree = "<group>"; };
 		D7C162952848BFB400AD08CD /* GitAppTestingUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GitAppTestingUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		D7C162A22848E33E00AD08CD /* Login.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Login.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +108,7 @@
 				D7C1627B2848BFB400AD08CD /* Assets.xcassets */,
 				D7C1627D2848BFB400AD08CD /* LaunchScreen.storyboard */,
 				D7C162802848BFB400AD08CD /* Info.plist */,
+				D7C162A22848E33E00AD08CD /* Login.swift */,
 			);
 			path = GitAppTesting;
 			sourceTree = "<group>";
@@ -261,6 +264,7 @@
 				D7C162772848BFB200AD08CD /* ViewController.swift in Sources */,
 				D7C162732848BFB200AD08CD /* AppDelegate.swift in Sources */,
 				D7C162752848BFB200AD08CD /* SceneDelegate.swift in Sources */,
+				D7C162A32848E33E00AD08CD /* Login.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
