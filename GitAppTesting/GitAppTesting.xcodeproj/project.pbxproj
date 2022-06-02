@@ -17,6 +17,7 @@
 		D7C162942848BFB400AD08CD /* GitAppTestingUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7C162932848BFB400AD08CD /* GitAppTestingUITests.swift */; };
 		D7C162962848BFB400AD08CD /* GitAppTestingUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7C162952848BFB400AD08CD /* GitAppTestingUITestsLaunchTests.swift */; };
 		D7C162A32848E33E00AD08CD /* Login.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7C162A22848E33E00AD08CD /* Login.swift */; };
+		D7C162A62848FEB300AD08CD /* SignUp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7C162A52848FEB300AD08CD /* SignUp.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		D7C162932848BFB400AD08CD /* GitAppTestingUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GitAppTestingUITests.swift; sourceTree = "<group>"; };
 		D7C162952848BFB400AD08CD /* GitAppTestingUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GitAppTestingUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		D7C162A22848E33E00AD08CD /* Login.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Login.swift; sourceTree = "<group>"; };
+		D7C162A52848FEB300AD08CD /* SignUp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUp.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +103,7 @@
 		D7C162712848BFB200AD08CD /* GitAppTesting */ = {
 			isa = PBXGroup;
 			children = (
+				D7C162A42848FEA600AD08CD /* Signup */,
 				D7C162722848BFB200AD08CD /* AppDelegate.swift */,
 				D7C162742848BFB200AD08CD /* SceneDelegate.swift */,
 				D7C162762848BFB200AD08CD /* ViewController.swift */,
@@ -128,6 +131,14 @@
 				D7C162952848BFB400AD08CD /* GitAppTestingUITestsLaunchTests.swift */,
 			);
 			path = GitAppTestingUITests;
+			sourceTree = "<group>";
+		};
+		D7C162A42848FEA600AD08CD /* Signup */ = {
+			isa = PBXGroup;
+			children = (
+				D7C162A52848FEB300AD08CD /* SignUp.swift */,
+			);
+			path = Signup;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -265,6 +276,7 @@
 				D7C162732848BFB200AD08CD /* AppDelegate.swift in Sources */,
 				D7C162752848BFB200AD08CD /* SceneDelegate.swift in Sources */,
 				D7C162A32848E33E00AD08CD /* Login.swift in Sources */,
+				D7C162A62848FEB300AD08CD /* SignUp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
